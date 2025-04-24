@@ -87,6 +87,7 @@ export default function AddProductModal(props) {
         formData.append("name", product.name);
         formData.append("star", product.rating);
         formData.append("price", product.price);
+        formData.append("descreption", product.description);
 
         const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_API_URL}products/addProduct`,{
             method: 'POST',
