@@ -20,3 +20,6 @@ Url: http://localhost:3000/ (Home page Url)
 env:
 NEXT_PUBLIC_BASE_API_URL='http://localhost:5001/api/'
 NEXT_PUBLIC_BASE_IMAGE_API='http://localhost:5001/uploads/'
+
+
+project run : npm run dev
