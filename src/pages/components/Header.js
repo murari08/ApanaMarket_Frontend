@@ -32,7 +32,6 @@ export default function Header() {
       </div>
       <nav className="navLinks">
         <Link href="/">Home</Link>
-        <Link href="/products">All Products</Link>
         <Link href="/cart">Cart</Link>
         <Link href="/order">Order Status</Link>
       </nav>
